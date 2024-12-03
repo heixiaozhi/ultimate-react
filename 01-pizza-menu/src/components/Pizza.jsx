@@ -1,6 +1,3 @@
-import React from 'react'
-import pizzaData from '../data'
-
 const Pizza = ({ pizza }) => {
   return (
     <li className={`pizza ${pizza.soldOut ? 'sold-out' : ''}`}>

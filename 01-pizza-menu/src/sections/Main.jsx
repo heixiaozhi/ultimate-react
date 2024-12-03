@@ -1,4 +1,3 @@
-import React from 'react'
 import Pizza from '../components/Pizza'
 
 const Main = ({ pizzas }) => {
