@@ -1,13 +1,7 @@
-import MoviesBox from './MoviesBox'
-import WatchedBox from './WatchedBox'
-
-const Main = () => {
+const Main = ({ children }) => {
   return (
     <>
-      <main className='main'>
-        <MoviesBox />
-        <WatchedBox />
-      </main>
+      <main className='main'>{children}</main>
     </>
   )
 }
